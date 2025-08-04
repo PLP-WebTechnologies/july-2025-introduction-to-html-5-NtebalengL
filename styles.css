@@ -1,0 +1,70 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Outfit', sans-serif;
+  color: #b287ff; /* Violet-bluish */
+  line-height: 1.6;
+}
+
+/* Header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #0a0a0a;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #b287ff;
+}
+
+.nav-links a {
+  color: #b287ff;
+  margin-left: 2rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  color: #d0a9ff;
+}
+
+/* Footer */
+.main-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0a0a0a;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+
